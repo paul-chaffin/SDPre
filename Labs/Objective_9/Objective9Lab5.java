@@ -42,7 +42,7 @@ public class Objective9Lab5 {
     }
       kb.close();
   }
-  // printMenu method
+  // print the menu
   public static void printMenu() {
     System.out.println();
 		System.out.println("========= MENU =========");
@@ -55,17 +55,17 @@ public class Objective9Lab5 {
 		System.out.println("========================");
 		System.out.println();
   }
-  // addNumbers method
+  // add numbers operation
   public static double findSum(double x, double y) {
     double sum = (x + y);
     return sum;
   }
-  // findAverage method
+  // find average operation
   public static double findAverage(double x, double y) {
     double average = (x + y) / 2;
     return average;
   }
-  // calcTax method
+  // calculate tax operation
   public static double calcTax(double x, double y) {
     double tax = (x + y) * .0831;
     return tax;
